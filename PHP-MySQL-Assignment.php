@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 <?php
 //the connection function to my database.
 //I am going to use the connection for add and to query for a list of categories.
-$mysqli = new mysqli("oniddb.cws.oregonstate.edu", "lewallep-db", "IOKtRAT9l5frVGTe", "lewallep-db");
+$mysqli = new mysqli("", "", "", "");
 if ($mysqli->connect_errno) {
 	echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
